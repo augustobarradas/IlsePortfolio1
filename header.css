@@ -1,0 +1,53 @@
+.logo__imagem{
+    width: 100px;
+}
+
+.banner__superior{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+    width: auto;
+}
+
+.menu__superior{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: var(--vinho);
+}
+
+.quadrado__propaganda{
+    background-color: var(--cinza);
+    width: auto;
+    height: 300px;
+    border-radius: 30px;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quadrado__propaganda--txt--class{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 62px;
+    font-family: "Poppins", sans-serif;
+    width: 283px;
+    padding-left: 0.3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__superior--itens {
+    text-decoration: none;
+    margin: 0 2em;
+    color: black;
+}
+
+.menu__superior--itens:hover {
+    color: var(--vinho);
+    text-decoration: #53035e;
+}
