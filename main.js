@@ -9,3 +9,12 @@ logo.addEventListener('click', onClickLogo)
 // const currentPageLink = document.querySelector(`a[href="${pageName}"]`)
 // currentPageLink.classList.add('active')
 
+var elemento = document.getElementById("banner__superior");
+elemento.classList.add("bannerSuperiorJs");
+
+var quadrado = document.getElementById("bannerSuperiorJs");
+quadrado.style.width = "100px";
+quadrado.style.height = "100px";
+quadrado.style.backgroundColor = "blue";
+
+
