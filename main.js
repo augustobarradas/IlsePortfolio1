@@ -12,7 +12,7 @@ logo.addEventListener('click', onClickLogo)
 const elemento = document.querySelector(".banner__superior");
 elemento.classList.add("bannerSuperiorJs");
 
-var quadrado = document.querySelector(".bannerSuperiorJs");
+const quadrado = document.querySelector(".quadrado__propaganda");
 quadrado.style.width = "100px";
 quadrado.style.height = "100px";
 quadrado.style.backgroundColor = "blue";
