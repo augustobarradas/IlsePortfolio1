@@ -69,3 +69,12 @@
 .logo__imagem:hover {
     transform: scale(1.2);
 }
+
+.bannerTeste {
+    cursor: pointer;
+    transition: all 250ms ease;
+    transform: scale(1);
+}
+.bannerTeste:hover {
+    transform: scale(1.2);
+}
