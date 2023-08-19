@@ -19,9 +19,11 @@ logo.addEventListener('click', onClickLogo);
 // quadrado.style.height = "100px";
 // quadrado.style.backgroundColor = "blue";
 
+// Abaixo tentei replicar o que foi feito lá em cima para mexer o banner.
+// Testei do jeito que esta abaixo e coloquei as barras, funcionou do mesmo jeito pq fiz as alteracoes no Header.css. Entao sei se esse código serve pra alguma coisa kkkk
 
-const bannerTeste = document.querySelector('.quadrado__propaganda');
+// const bannerTeste = document.querySelector('.quadrado__propaganda');
 
-bannerTeste.addEventListener('click', onClickLogo);
+// bannerTeste.addEventListener('click', onClickLogo);
 
 
