@@ -70,11 +70,11 @@
     transform: scale(1.2);
 }
 
-.bannerTeste {
+.quadrado__propaganda {
     cursor: pointer;
     transition: all 250ms ease;
     transform: scale(1);
 }
-.bannerTeste:hover {
-    transform: scale(1.2);
+.quadrado__propaganda:hover {
+    transform: scale(1.1);
 }

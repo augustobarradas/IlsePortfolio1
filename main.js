@@ -20,7 +20,7 @@ logo.addEventListener('click', onClickLogo);
 // quadrado.style.backgroundColor = "blue";
 
 
-const bannerTeste = document.querySelector('.quadrado__propaganda--imagem--logo');
+const bannerTeste = document.querySelector('.quadrado__propaganda');
 
 bannerTeste.addEventListener('click', onClickLogo);
 
