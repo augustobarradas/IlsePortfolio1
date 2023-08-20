@@ -27,3 +27,21 @@ logo.addEventListener('click', onClickLogo);
 // bannerTeste.addEventListener('click', onClickLogo);
 
 
+const banner = document.getElementById(".quadrado__propaganda");
+const images = banner.getElementsById("imagem--banner");
+let currentImageIndex = 0;
+
+function showImage(index) {
+    for (let i = 0; i < images.length; i++) {
+        images[i].style.display = "none";
+    }
+    images[index].style.display = "block";
+}
+
+function nextImage() {
+    currentImageIndex = (currentImageIndex + 1) % images.length;
+    showImage(currentImageIndex);
+}
+
+setInterval(nextImage, 3000); // Troca de imagem a cada 3 segundos
+showImage(currentImageIndex);
