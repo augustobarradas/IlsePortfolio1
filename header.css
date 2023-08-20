@@ -18,14 +18,14 @@
 
 .quadrado__propaganda{
     background-color: var(--cinza);
-    width: auto;
-    height: 300px;
+    width: 100%;
+    height: auto;
     border-radius: 30px;
     margin: 1em;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    display: flex;
 }
 
 .quadrado__propaganda--txt--class{
@@ -73,7 +73,7 @@
 
 /* Fiz alguma mudança aqui abaixo para tentar replicar o que já havia sido feito. Funcionou mas não entendi a função do JS*/
 
-.quadrado__propaganda {
+/*.quadrado__propaganda {
     cursor: pointer;
     transition: all 250ms ease;
     transform: scale(1);
@@ -81,4 +81,9 @@
 .quadrado__propaganda:hover {
     transform: scale(1.1);
     background-color: aqua;
+}*/
+
+.quadrado__propaganda img {
+    width: 100%;
+    height: auto;
 }

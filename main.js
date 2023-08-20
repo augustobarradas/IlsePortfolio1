@@ -27,8 +27,8 @@ logo.addEventListener('click', onClickLogo);
 // bannerTeste.addEventListener('click', onClickLogo);
 
 
-const banner = document.getElementById(".quadrado__propaganda");
-const images = banner.getElementsById("imagem--banner");
+const banner = document.querySelector(".quadrado__propaganda");
+const images = banner.getElementsByTagName("img");
 let currentImageIndex = 0;
 
 function showImage(index) {
