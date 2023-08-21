@@ -45,7 +45,23 @@ body{
     text-transform: uppercase;
     font-weight: 900;
     padding: 2em 1.5em;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
 }
+
+/* Animacao para menus */
+.novidades {
+    cursor: pointer;
+    transition: all 250ms ease;
+    transform: scale(1);
+}
+
+.novidades:hover {
+    transform: scale(1.2);
+}
+
+/* --------------------- */
 
 .novidades__produto {
     display: flex;

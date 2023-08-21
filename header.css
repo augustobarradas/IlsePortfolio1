@@ -73,17 +73,29 @@
 
 /* Fiz alguma mudança aqui abaixo para tentar replicar o que já havia sido feito. Funcionou mas não entendi a função do JS*/
 
-/*.quadrado__propaganda {
+.quadrado__propaganda {
     cursor: pointer;
     transition: all 250ms ease;
     transform: scale(1);
 }
 .quadrado__propaganda:hover {
-    transform: scale(1.1);
-    background-color: aqua;
-}*/
+    transform: scale(1.02);
+}
 
 .quadrado__propaganda img {
     width: 100%;
     height: auto;
 }
+
+.novidades__produto--01:hover {
+    transform: scale(1.05);
+}
+
+.novidades__produto--02:hover {
+    transform: scale(1.05);
+}
+
+.novidades__produto--03:hover {
+    transform: scale(1.05);
+}
+
