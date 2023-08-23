@@ -17,8 +17,6 @@
 }
 
 .quadrado__propaganda{
-    background-color: var(--cinza);
-    width: 100%;
     height: auto;
     border-radius: 30px;
     margin: 1em;
