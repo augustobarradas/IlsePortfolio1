@@ -23,3 +23,10 @@ function nextImage() {
 
 setInterval(nextImage, 3000); // Troca de imagem a cada 3 segundos
 showImage(currentImageIndex);
+
+const logo1 = document.querySelector('.footer__image--01');
+
+function onClickLogo() {
+    document.location.pathname = '/';
+}
+logo1.addEventListener('click', onClickLogo);

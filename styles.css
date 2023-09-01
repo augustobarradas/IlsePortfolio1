@@ -3,8 +3,6 @@
     --cinza: #E7E6E6;
     --fonte__principal: "Poppins";
     --vinho: #53035e;
-
-
 }
 
 body{
@@ -13,7 +11,6 @@ body{
     display: flex;
     justify-content: center;
 }
-
 
 .box--vinho {
     width: 350px;
@@ -109,4 +106,12 @@ body{
     height: 230px;
 }
 
+.quemsoueu__titulo{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.quemsoueu__txt {
+    width: 460px;
+}
 
