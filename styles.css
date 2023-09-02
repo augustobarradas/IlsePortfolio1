@@ -115,3 +115,44 @@ body{
     width: 460px;
 }
 
+@media screen and (min-width: 480px) {
+    body {
+        width: 480px;
+    }
+    
+    .banner__superior {
+        flex-direction: column;
+    }
+
+    .logo__imagem {
+        width: 200px;
+    }
+
+    .menu__superior__grupo {
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+    }
+
+    
+    
+    /*.logo__imagem {
+        width: 70px;
+    }
+
+    .menu__superior__grupo {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu__superior--itens {
+        display: flex;
+        height: 10px;
+        padding: 0.5em 0em;
+
+    }*/
+}
+
+@media screen and (min-width: 769px) {
+
+}
