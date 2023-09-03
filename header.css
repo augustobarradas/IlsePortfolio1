@@ -97,7 +97,7 @@
     transform: scale(1.05);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     
     .banner__superior {
         flex-direction: column;
@@ -105,6 +105,16 @@
 
     .logo__imagem {
         width: 200px;
+    }
+
+    .novidades__produto {
+        flex-direction: column;
+        width: 480px;
+        align-items: center;
+    }
+
+    .novidades__produto--01 {
+        padding: 1em;
     }
 
     .menu__superior__grupo {
@@ -118,6 +128,18 @@
     }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (max-width: 769px) {
+    .menu__superior--itens {
+       padding: 0.5em 0.7em;
+    }
+    .menu__superior__grupo{
+        font-size: 11px;
+    }
+
+    .novidades__produto {
+        flex-direction: column;
+        width: 769px;
+        align-items: center;
+    }
 
 }
