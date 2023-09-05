@@ -63,7 +63,7 @@ body{
 .novidades__produto {
     display: flex;
     justify-content: space-evenly;
-    width: 1366px;
+    width: auto;
 }
 
 .novidades__produto--01--imagem {
@@ -110,8 +110,12 @@ body{
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
+    padding-top: 1.5em;
 }
 .quemsoueu__txt {
-    width: 460px;
+    line-height: normal;
+    width: 300px;
+    text-align: center;
+    padding-top: 2em;
 }
 
