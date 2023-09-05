@@ -69,8 +69,6 @@
     transform: scale(1.2);
 }
 
-
-
 .quadrado__propaganda {
     cursor: pointer;
     transition: all 250ms ease;
@@ -123,9 +121,6 @@
         padding: 1em;
     }
 
-    .menu__superior--itens {
-       
-    }
 }
 
 @media screen and (max-width: 769px) {
