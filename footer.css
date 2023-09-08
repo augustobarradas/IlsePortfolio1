@@ -4,7 +4,15 @@
 
 .footer__image--01 {
     height: 230px;
+    cursor: pointer;
+    transition: all 250ms ease;
+    transform: scale(1);
 }
+
+.footer__image--01:hover {
+    transform: scale(1.2);
+}
+
 
 .footer__image {
     display: flex;
@@ -18,8 +26,6 @@
     padding: 2em;
     flex-direction: column;
 }
-
-
 
 .footer__dev--text{
     display: flex;

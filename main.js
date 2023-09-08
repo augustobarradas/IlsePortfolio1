@@ -3,18 +3,30 @@ const logo = document.querySelector('.logo__imagem');
 function onClickLogo() {
     document.location.pathname = '/';
 }
-logo.addEventListener('click', onClickLogo)
+logo.addEventListener('click', onClickLogo);
 
-// const pageName = document.location.pathname.slice(1)
-// const currentPageLink = document.querySelector(`a[href="${pageName}"]`)
-// currentPageLink.classList.add('active')
+const logo1 = document.querySelector('.footer__image--01');
 
-var elemento = document.getElementById("banner__superior");
-elemento.classList.add("bannerSuperiorJs");
+function onClickLogo() {
+    document.location.pathname = '/';
+}
+logo1.addEventListener('click', onClickLogo);
 
-var quadrado = document.querySelector(".bannerSuperiorJs");
-quadrado.style.width = "100px";
-quadrado.style.height = "100px";
-quadrado.style.backgroundColor = "blue";
+const banner = document.querySelector(".quadrado__propaganda");
+const images = banner.getElementsByTagName("img");
+let currentImageIndex = 0;
 
+function showImage(index) {
+    for (let i = 0; i < images.length; i++) {
+        images[i].style.display = "none";
+    }
+    images[index].style.display = "block";
+}
 
+function nextImage() {
+    currentImageIndex = (currentImageIndex + 1) % images.length;
+    showImage(currentImageIndex);
+}
+
+setInterval(nextImage, 3000); // Troca de imagem a cada 3 segundos
+showImage(currentImageIndex);

@@ -3,8 +3,6 @@
     --cinza: #E7E6E6;
     --fonte__principal: "Poppins";
     --vinho: #53035e;
-
-
 }
 
 body{
@@ -13,7 +11,6 @@ body{
     display: flex;
     justify-content: center;
 }
-
 
 .box--vinho {
     width: 350px;
@@ -45,12 +42,28 @@ body{
     text-transform: uppercase;
     font-weight: 900;
     padding: 2em 1.5em;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
 }
+
+/* Animacao para menus */
+.novidades {
+    cursor: pointer;
+    transition: all 250ms ease;
+    transform: scale(1);
+}
+
+.novidades:hover {
+    transform: scale(1.2);
+}
+
+/* --------------------- */
 
 .novidades__produto {
     display: flex;
     justify-content: space-evenly;
-    width: 1366px;
+    width: auto;
 }
 
 .novidades__produto--01--imagem {
@@ -93,4 +106,16 @@ body{
     height: 230px;
 }
 
+.quemsoueu__titulo{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 1.5em;
+}
+.quemsoueu__txt {
+    line-height: normal;
+    width: 300px;
+    text-align: center;
+    padding-top: 2em;
+}
 
