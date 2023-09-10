@@ -31,7 +31,7 @@ const products =
         },
     ],
 
-    arvores_da_vida:[
+    arvores_da_vida1:[
         {
             name: 'arvore da vida 1', 
             imgUrl: './img_dos_produtos/arvore_da_vida/arvore_da_vida1.JPG',
@@ -74,7 +74,8 @@ const products =
             imgUrl: './img_dos_produtos/Paineis/painel3.JPG',
         },
     ],
-    suporte_de_plantas:[
+
+    suporte_de_plantas1:[
         {
             name: 'suporte de plantas 1', 
             imgUrl: './img_dos_produtos/suporte_de_plantas/suporte_de_plantas1.jpg',
