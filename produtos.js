@@ -17,6 +17,6 @@ selectedCategory.forEach(product => {
     `
 });
 novidadesProdutoEl.innerHTML = template;
-novidadesEl.innerText = category;
+novidadesEl.innerText = category.replaceAll('_', ' ');
 
 console.log(template)
