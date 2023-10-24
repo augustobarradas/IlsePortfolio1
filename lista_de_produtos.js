@@ -74,6 +74,7 @@ const products =
             imgUrl: './img_dos_produtos/Paineis/painel3.JPG',
         },
     ],
+
     suporte_de_plantas:[
         {
             name: 'suporte de plantas 1', 
