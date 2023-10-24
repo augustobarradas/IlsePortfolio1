@@ -1,6 +1,6 @@
 const products = 
 {
-    espelhos:[
+    espelho:[
         {
             name: 'espelho1', 
             imgUrl: './img_dos_produtos/espelho/espelho1.jpg',
@@ -60,6 +60,7 @@ const products =
             imgUrl: './img_dos_produtos/Balanco/balanco3.jpg',
         },
     ],
+
     paineis:[
         {
             name: 'paineis1', 
