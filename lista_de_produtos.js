@@ -3,7 +3,7 @@ const products =
     espelho:[
         {
             name: 'espelho1', 
-            imgUrl: './img_dos_produtos/espelho/espelho1.jpg',
+            imgUrl: './img_dos_produtos/espelho/espelho1.jpg', 
         },
         {
             name: 'espelho2', 
