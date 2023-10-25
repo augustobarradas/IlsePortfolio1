@@ -1,17 +1,17 @@
 const products = 
 {
-    espelhos:[
+    espelho:[
         {
             name: 'espelho1', 
-            imgUrl: './img_dos_produtos/Espelho/espelho1.jpg',
+            imgUrl: './img_dos_produtos/espelho/espelho1.jpg', 
         },
         {
             name: 'espelho2', 
-            imgUrl: './img_dos_produtos/Espelho/espelho2.jpg',
+            imgUrl: './img_dos_produtos/espelho/espelho2.jpg',
         },
         {
             name: 'espelho3', 
-            imgUrl: '/img_dos_produtos/Espelho/espelho3.jpg',
+            imgUrl: './img_dos_produtos/espelho/espelho3.jpg',
         },
 
     ],
@@ -60,6 +60,7 @@ const products =
             imgUrl: './img_dos_produtos/Balanco/balanco3.jpg',
         },
     ],
+
     paineis:[
         {
             name: 'paineis1', 

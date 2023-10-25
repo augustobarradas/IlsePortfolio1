@@ -5,12 +5,12 @@ var novidadesProdutoEl = document.querySelector('.novidades__produto');
 var novidadesEl = document.querySelector('.novidades');
 var template = '';
 var selectedCategory = products[category]
-selectedCategory.forEach(product => {
+selectedCategory.forEach(products => {
     template += `
     <div class="novidades__produto--01">
-        <img src="${product.imgUrl}" class="novidades__produto--01--imagem">
+        <img src="${products.imgUrl}" class="novidades__produto--01--imagem">
         <div class="novidades__produto--01--info">
-            <p class="novidades__produto--01--txt">${product.name}</p>
+            <p class="novidades__produto--01--txt">${products.name}</p>
         </div>
     </div>
 
