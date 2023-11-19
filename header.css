@@ -109,7 +109,7 @@
 
     .novidades__produto {
         flex-direction: column;
-        width: 480px;
+        width: auto;
         align-items: center;
     }
 
@@ -135,7 +135,7 @@
 
     .novidades__produto {
         flex-direction: column;
-        width: 769px;
+        width: auto;
         align-items: center;
     }
 
